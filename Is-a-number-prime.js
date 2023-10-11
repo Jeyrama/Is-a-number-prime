@@ -16,3 +16,6 @@ Examples:
   is_prime(2)  true 
   is_prime(-1) false
 */
+
+
+// Solution
