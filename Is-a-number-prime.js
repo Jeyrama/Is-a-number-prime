@@ -40,7 +40,7 @@ function isPrime(n) {
     return true;
   if (n % 2 === 0 || n % 3 === 0)
   	return false;
-  for (var i = 5; i <= Math.pow(n, 0.5); i += 6)
+  for (let i = 5; i <= Math.pow(n, 0.5); i += 6)
   	if (n % i === 0 || n % (i + 2) === 0)
     	return false;
   return true;
